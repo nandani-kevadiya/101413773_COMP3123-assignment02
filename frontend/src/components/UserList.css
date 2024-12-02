@@ -1,0 +1,88 @@
+/* Container styling for the user list */
+.list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styling */
+  .list-container h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Table styling */
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .user-table th,
+  .user-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .user-table tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Action buttons styling */
+  .action-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 0 5px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .action-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .action-button.delete {
+    background-color: #dc3545;
+  }
+  
+  .action-button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Add User button styling */
+  .add-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    background-color: #28a745;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
